@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_create_fragment"
+            android:icon="@drawable/ic_create_white_24dp"
+            android:title="Create" />
+
+        <item
+            android:id="@+id/nav_search_fragment"
+            android:icon="@drawable/ic_search_white_24dp"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_settings_fragment"
+            android:icon="@drawable/ic_settings_white_24dp"
+            android:title="Settings" />
+
+        <item
+            android:icon="@drawable/ic_save_white_24dp"
+            android:title="Save" />
+
+    </group>
+
+</menu>
